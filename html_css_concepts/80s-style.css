@@ -1,0 +1,12 @@
+div{
+    background-color: bisque;
+    background-image: url('zoSo.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+}
+
+h1{
+    color: black;
+    background-color: aquamarine;
+}

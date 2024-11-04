@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of selector</title>
+    <style>
+        /* order of prec. */
+        /* Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector */
+        h1{
+            color: violet;
+        }
+        /* 
+        *{
+            margin: 0; 
+            color: hotpink;
+        } 
+        */
+        #aadhar{
+            color: blueviolet;
+            background-color: gray;
+        }
+        .green{
+            color: yellow;
+            background-color: green;
+        }
+        div>p{
+            color: pink;
+            background-color: aqua;
+        }
+        div p{
+            color: plum;
+            background-color: antiquewhite;
+        }
+        /* pseudo selectors */
+        a:visited{
+            color: aqua;
+        }
+        a:link{
+            color: blueviolet;
+        }
+        a:hover{
+            background-color: pink;
+        }
+        a.get[href]:hover{
+            color: darkslategray;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1>ANTIDOTE</h1>
+    <div id="aadhar">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt sit aliquam?
+    </div>
+    <div class="green">
+        you got this dawg
+    </div>
+    <h2>sherrrrr</h2>
+    <div class="green">
+        <p>hehehehe</p>
+        <article>
+            <p>viltrimites suck</p>
+        </article>
+    </div>
+    <a href="www.google.com" target="_blank" class="get" title="link to google">GOOGLE</a>
+    <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">AI</a>
+</body>
+</html>

@@ -1,0 +1,14 @@
+div p:first-child{
+    color: red;
+    background-color: yellow;
+}
+
+div p{
+    color: white;
+    background-color: blue;
+}
+
+div p:nth-child(5){
+    color:palegreen;
+    background-color: aqua;
+}

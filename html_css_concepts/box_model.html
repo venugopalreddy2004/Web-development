@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS boxmodel concept</title>
+    <style>
+        *{
+            /* to remove the default padding and margin of the elements. */
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: aquamarine;
+        }
+        .b1{
+            color: blue;
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid blue;
+            height: 100px;
+            /* this will just define how large the element(cont+padding+border) will be. */
+            box-sizing: border-box;
+        }
+        .b2{
+            color:purple;
+            padding: 10px;
+            margin: 50px;
+            border: 2px solid blue;
+            height: 100px;
+            /* this will just define how large the element(cont+padding+border) will be. */
+            box-sizing: border-box;
+        }
+        .link{
+            background-color: peachpuff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box b1">
+        thank you
+    </div>
+    <!-- <a href="www.google.com" class="link b1">google</a> -->
+    <div class="box b2">
+        immigrant song
+    </div>
+</body>
+</html>

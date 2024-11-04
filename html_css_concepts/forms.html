@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning forms</title>
+</head>
+<body>
+    <h1>BASIC FORM</h1>
+    <form action="test.php" method="post">
+        <div>
+            <label for="user">Username</label>
+            <br>
+            <input type="text" id="user" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <br>
+        <div>
+            <label>SELECT YOUR GENDER</label>
+            <br>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="sub" name="subs" value="yes">
+            <label for="sub">Newsletter ke liye check kar</label>
+        </div>
+        <p></p>
+        <div>
+            <label for="mailid">Enter your email id</label>
+            <br>
+            <input type="email" name="email" id="mailid" placeholder="example@gmail.com"/>
+        </div>
+        <br>
+        <div>
+            <label for="cmt" style="background-color: aqua;">Feedback</label><br>
+            <textarea name="comment" id="cmt" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="branch">BRANCH</label>
+            <select name="joh bhi" id="branch">
+                <option value="ecs">ECSE</option>
+                <option value="aiml">AIML</option>
+                <option value="CORE">CSE</option>
+            </select>
+        </div>
+    </form>
+
+</body>
+</html>
